@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <header id="home">
+    <header>
         <nav>
             <ul>
                 <li>
@@ -19,10 +19,10 @@
                     <a href="#about">about</a>
                 </li>
                 <li>
-                    <a href="#toolbox">work</a>
+                    <a href="#toolbox">toolbox</a>
                 </li>
                 <li>
-                    <a href="#work">toolbox</a>
+                    <a href="#work">work</a>
                 </li>
                 <li>
                     <a href="#contact">contact</a>
@@ -30,10 +30,12 @@
             </ul>
         </nav>
     </header>
-    <h1>
-        <span id="head-margin1">Hey there, I am Florian!</span>
-        <span id="head-margin2"><br />I am a Sports Enthusiast, a Mechanical Engineer</span>
-        <span id="head-margin3"><br />on his way to be a</span><span> Developer!</span>
+    <h1 id="home" class="gear">
+        <div class="head-margin">
+        <span>Hey there, I am Florian!</span>
+        <span><br />I am a Sports Enthusiast, a Mechanical Engineer</span>
+        <span><br />on his way to be a</span><span> Developer!</span>
+        </div>
     </h1>
     <div id="container-about"></div>
     <main>
@@ -41,56 +43,62 @@
             <h2>About</h2>
             <h3>Who am I?</h3>
             <img src="./images/" alt="personal image"/>
-            <h3>I am a passionate Engineer <br />with a love for Sports and Software</h3>
-            <p> I am always curious to learn new ways to execute things. I have decided that I take one of my passions, creating Software, 
-                to another level by joining the Columbia Software Development Bootcamp!
-            </p>
-            <p>
-                I have a BS in Mechanical Engineering and a Masters in Businees Administration (MBA)
-            </p>
-            <p>
-                I love being around my family. As an Ultra-Marathon Runner and Triathlete I am also very passionate to be outside. 
-                I am always learning, exploring and surging to make processes more efficient and easier to follow.
-                I love to work with different kind of people/cultures and learn from them and their experience.
-                Feel free to reach out to me.
-            </p>
+            <h4>I am a passionate Engineer <br />with a love for Sports and Software</h4>
+            <div class="intro">
+                <p> I am always curious to learn new ways to execute things. I have decided that I take one of my passions, creating Software, 
+                    to another level by joining the Columbia Software Development Bootcamp!
+                </p>
+                <p>
+                    I have a BS in Mechanical Engineering and a Masters in Businees Administration (MBA)
+                </p>
+                <p>
+                    I love being around my family. As an Ultra-Marathon Runner and Triathlete I am also very passionate to be outside. 
+                    I am always learning, exploring and surging to make processes more efficient and easier to follow.
+                    I love to work with different kind of people/cultures and learn from them and their experience.
+                    Feel free to reach out to me.
+                </p>
+            </div>
+            
             </section>
             <section id="toolbox" class="toolbox">
                 <h2>Toolbox</h2>
                 <h3>Tools I know how to use</h3>
-                <p>The skills, tools and technologie I can already use to bring projects to life:</p>
-                <div>
-                    <img src="./images/html5.png" alt="HTML5 Icon">
-                    <p>HTML5</p>
+                <p class="skills">The skills, tools and technologie I can already use to bring projects to life:</p>
+                <div class="icon-container">
+                    <div>
+                        <img src="./images/html5.png" alt="HTML5 Icon">
+                        <p>HTML5</p>
+                    </div>
+                    <div>
+                        <img src="./images/css3.png" alt="CSS Icon">
+                        <p>CSS3</p>
+                    </div>
+                    <div>
+                        <img src="./images/git.png" alt="Git Icon">
+                        <p>Git</p>
+                    </div>
+                    <div>
+                        <img src="./images/github.png" alt="GitHub Icon">
+                        <p>GitHub</p>
+                    </div> 
+                    <div>
+                        <img src="./images/python.png">
+                        <p>Python</p>
+                    </div>
+                    <div>
+                        <img src="./images/visual-basic.png">
+                        <p>Visual Basic</p>
+                    </div>
+                    <div>
+                        <img src="./images/vs-code.png">
+                        <p>VS Code</p>
+                    </div>
+                    <div>
+                        <img src="./images/command.png">
+                        <p>Command Line</p>
+                    </div>
                 </div>
-                <div>
-                    <img src="./images/css3.png" alt="CSS Icon">
-                    <p>CSS3</p>
-                </div>
-                <div>
-                    <img src="./images/git.png" alt="Git Icon">
-                    <p>Git</p>
-                </div>
-                <div>
-                    <img src="./images/github.png" alt="GitHub Icon">
-                    <p>GitHub</p>
-                </div> 
-                <div>
-                    <img src="./images/python.png">
-                    <p>Python</p>
-                </div>
-                <div>
-                    <img src="./images/visual-basic.png">
-                    <p>Visual Basic</p>
-                </div>
-                <div>
-                    <img src="./images/vs-code.png">
-                    <p>VS Code</p>
-                </div>
-                <div>
-                    <img src="./images/command.png">
-                    <p>Command Line</p>
-                </div>
+                
             </section>
             <section id="work">
                 <h2>Work</h2>
