@@ -35,7 +35,14 @@
     margin-right: 20px;
     margin-left: 15px;
   }
-
+.myPicture img{
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+    margin-left: 20px;
+    margin-right: 15px;
+    border-radius: 400px;
+}
 html {
     margin: 0;
     padding: 0;
@@ -136,6 +143,13 @@ footer{
 .head-margin{
     margin-left: 150px;
     line-height: 2;
+}
+.introImage img{
+    /* margin-left: 900px; */
+    border-radius: 100px;
+    float: right;
+    margin-right: 80px;
+   
 }
 #container-about{
     width: 100%;
