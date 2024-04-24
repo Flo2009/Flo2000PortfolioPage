@@ -141,15 +141,16 @@ footer{
     color:#6f9cfb;
     font-size: 10px;
 }
-.gear::before{
-    content: url(/images/gear.png);
+#gear::before{
+    /* content: url(/images/gear.png); */
     transform: scale(.5);
+    flex: auto;
 }
-.gear::after{
-    content: url(/images/gear.png);
-    transform: scale(.5);
-    margin-left: 600px;
-    /* float: right; */
+#gear2{
+    /* content: url(/images/gear.png); */
+    /* transform: scale(.5); */
+    float: left;
+   
     
 }
 .head-margin{
