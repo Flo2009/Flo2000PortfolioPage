@@ -1,3 +1,5 @@
+
+/*declare color variables*/
 :root{
     --firstColor: #d6fbc0;/*#c5fdea;*/
     --secondColor:#ffe4c4;
@@ -7,7 +9,7 @@
     box-sizing: border-box;
   }
 
-  
+/*hover effect and drop shadow below the picture*/  
 .gallery:hover {
     transform: scale(1.1);
     transition: transform .25s ease;
@@ -30,7 +32,7 @@
     height: auto;
     margin-bottom: 20px;
   }
-
+/*IDs for the Prework and Webpage pictures*/
 #prework {
     padding: 0 6px;
     float: left;
@@ -45,6 +47,7 @@
     margin-right: 20px;
     margin-left: 15px;
   }
+ /*Class for my personal image*/ 
 .myPicture img{
     padding: 0 6px;
     float: left;
@@ -80,6 +83,7 @@ a{
     font-size: 20px;
     font-family: cursive;
 }
+/*Align navigation*/
 nav ul{
     color: #fff;
     display: flex; 
@@ -164,6 +168,7 @@ footer{
     margin-right: 80px;
    
 }
+/*Container to make the angled sections in different colors*/
 #container-about{
     width: 100%;
     height: 195px;
@@ -202,6 +207,7 @@ main{
     margin-left: 150px;
     line-height: 1;   
 }
+/*Space the skill icons*/
 .icon-container{
     display: flex;
     justify-content: space-evenly;
@@ -209,6 +215,7 @@ main{
     margin-top: 40px;
     padding-bottom: 10px;
 }
+/*background color work section*/
 .work{
     background-color:  #a2bdf8; 
     display: inline-block;  
@@ -221,6 +228,7 @@ main{
 .contact{
     background: var(--firstColor);   
 }
+/*Links in the contact section */
 .contact-links a{
     color: #fc3e9f;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -232,6 +240,7 @@ main{
     line-height: 1.5;
     /* margin-left: 150px; */
 }
+/*Make the screen flexible when certain pixles are reached */
 @media only screen and (max-width: 700px) {
     #prework {
       width: 49.99999%;
